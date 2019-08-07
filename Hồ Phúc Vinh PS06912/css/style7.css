@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+
+.content {
+    border: 4px solid rgb(51, 21, 219);
+    margin: auto;
+    max-width: 800px;
+    border-radius: 13px;
+}
+
+.content .title {
+    background: #4beb589a;
+    padding: 5px;
+    border-radius: 10px 10px 0 0;
+    color: white;
+}
+
+.content .title h1 {
+    margin: 10px
+}
+
+.content .title a {
+    color: yellow
+}
+
+.content .title h2 {
+    margin: -30px 10px 0px 10px;
+    color: blue;
+}
+
+.content .title h2 b {
+    font-size: 40px
+}
+
+.content .main img {
+    width: 300px;
+    height: 200px;
+}
+
+.content .box {
+    float: left;
+    width: 30%;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center
+}
+
+.content .main .box1 {
+    float: left;
+    width: 70%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.content .box1 h3 {
+    color: #00e609
+}
+
+.content .box1 h4 {
+    margin: -20px 10px 10px 10px;
+    color: #00e609;
+}
+
+.content .box1 img {
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+.content .box1 h6 {
+    margin: -30px;
+    font-size: 13px
+}
+
+.content .box2 {
+    text-align: center
+}
+
+.content .box2 input {
+    background: rgb(252, 106, 49);
+    padding: 15px 30px;
+    margin: 15px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    border: 0;
+}
+
+.content .box2 input:hover {
+    color: white
+}

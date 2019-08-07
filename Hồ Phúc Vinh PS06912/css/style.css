@@ -1,0 +1,77 @@
+body {
+    background: silver;
+    background header : red;
+}
+
+.container-fluid {
+    border-top: solid 17px black;
+    margin: 0 auto;
+}
+
+header {
+    border-bottom: solid 1px #c0c0c0;
+    padding: 20px 0;
+}
+
+.navbar-default {
+    border: none;
+    background: none;
+}
+
+.navbar {
+    border-radius: 0;
+    margin: 0;
+}
+
+.navbar-brand {
+    padding: 0;
+    height: 80px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fb3f3f;
+    font-family: "Arial" font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: Bold;
+}
+
+.navbar-nav {
+    padding-top: 18px;
+}
+
+.navbar-toggle {
+    margin-top: -4px;
+    margin-right: 2px;
+}
+
+.selected,
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: #090909 !important;
+}
+
+
+/*--------------------Chuyển động------------*/
+
+.fixDisplay {
+    padding: 20px 50px;
+    border-bottom: solid 1px #c0c0c0;
+}
+
+.fixDisplay .carousel-inner img {
+    width: 100%;
+    height: 255px;
+}
+
+
+/*----------------------box---------------*/
+
+.thumbnail {
+    background-color: #d9edf7;
+    border: 2px solid red;
+}
+
+.thumbnail>img {
+    padding-top: 40px;
+}
